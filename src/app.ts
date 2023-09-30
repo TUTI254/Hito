@@ -9,7 +9,7 @@ const app = express();
 
 // create server
 app.listen(port, async () => {
-  logger.info(`Server is running at http://localhost:${port}`);
+  logger.info(`🚦Server running ✅ 🚀 on http://localhost:${port}`);
   await connect();
   routes(app);
 });
